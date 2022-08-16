@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+
+}
+
+body {
+    min-height: 100%;
+    display:flex;
+    justify-content: center;
+    position: relative;
+    background: blueviolet;
+    
+}
+
+h1 {
+    font-size: 5rem;
+    position: absolute;
+    top: 45rem;
+    
+    color:#fff
+}
+
+h1:hover {
+    color: blue;
+    background-color: aqua;
+    padding: 3rem;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    text-decoration: underline;
+}
